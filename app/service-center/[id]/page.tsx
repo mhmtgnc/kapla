@@ -1,6 +1,6 @@
-import { prisma } from '../../lib/prisma'
+import { prisma } from '../../../lib/prisma'
 import { notFound } from 'next/navigation'
-import AppointmentForm from '../../components/AppointmentForm'
+import AppointmentForm from '../../../components/AppointmentForm'
 
 interface ServiceCenterPageProps {
   params: {
