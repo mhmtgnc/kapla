@@ -1,5 +1,5 @@
-import SearchBar from '@/components/SearchBar'
-import ServiceCard from '@/components/ServiceCard'
+import SearchBar from '../components/SearchBar'
+import ServiceCard from '../components/ServiceCard'
 
 export default function HomePage() {
   return (

@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import AppointmentCalendar from '@/components/AppointmentCalendar'
+import AppointmentCalendar from '../../../components/AppointmentCalendar'
 
 interface Appointment {
   id: string
